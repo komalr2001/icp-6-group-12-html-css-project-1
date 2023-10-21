@@ -67,7 +67,7 @@ body {
     font-size: 30px;
     text-align: left;
     margin-left: 20px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .description {
@@ -97,18 +97,20 @@ body {
     margin-top: 40px;
     margin-left: 20px;
     width: 220px;
-   
-    
-    
-    
+
+
+
+
 }
-.headcric:hover{
+
+.headcric:hover {
     box-shadow: 0 0 2px 2px white;
     transform: scale(1.12);
 }
 
 .criccard {}
-.criccard:hover{
+
+.criccard:hover {
     transform: scale(1.13);
 }
 
@@ -140,84 +142,60 @@ body {
     position: relative;
     top: 100px;
 }
-.lowerhome{
+
+.lowerhome {
     font-size: 30px;
     text-align: center;
     color: white;
     margin-top: 100px;
-    
+
 }
-.nav-logo{
-    width:160px;
+
+.nav-logo {
+    width: 160px;
     object-fit: contain;
-    margin-left: 10px; 
-    }
+    margin-left: 10px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 23px;
+    justify-content: space-evenly;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.linkFooter {
+    list-style: none;
+    font-size: 15px;
+}
+
+.imageSocial {
+    height: 20px;
+    width: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.footerHead {
+    font-size: 20px;
+    color: red;
+}
 
 
 
-    .fotter-nav ul{
-        display: flex;
-        justify-content: center;
-            color: #fff;
-        
-        }
-        .fotter-nav ul li a{
-            color: white;
-            margin: 20px;
-            text-decoration: none;
-            font-size: 1;
-            opacity: 0.3em;
-        }
-          .fotter-nav-list{
-        color:black;
-        margin: 20px;
-        text-decoration: none;
-        font-size: 1.3em;
-        opacity: 0.7;
-        transition: 0.5s;
-        }
-        fotter-nav ul li a:hover{
-            opacity: 1;
-        }
-        fotter-bottom{
-            background-color: #0000;
-            padding: 20px;
-            text-align: center;
-        }
-        .fotter-bottom p{
-            color: white;
-            text-align: center;
-        }
-        .fotter{
-            background-color: #111;
-            width: 100%;
-           }
-           .fottercontainer{
-               width: 100%;
-               padding: 70px 30px 20px;
-           }
-           .social-icon{
-               display: flex;
-               justify-content: center;
-             
-           }
-           .social-icon-dign{
-               text-decoration: none;
-               padding: 10px;
-               background-color: white;
-               margin: 10px;
-               border-radius: 50%;
-               color: #111;
-               font-size: 30px;
-               padding: 10px;
-           }
-           .social-icon-dign:hover{
-               color: white;
-               transition: 0.3s;
-               background-color: black;
-           }
-    
-@media ( max-width:600px){
+
+@media (max-width:600px) {
     .searchbar {
         height: 25px;
         width: 120px;
@@ -227,43 +205,45 @@ body {
         top: 18px;
         box-shadow: 0 0 2px 2px whitesmoke;
         font-size: 15px;
-}
-.navsearch {
-    height: 30px;
-    position: relative;
-    left: 90px;
-    top: 21px;
-    cursor: pointer;
-}
-.heading {
-    color: white;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 20px;
-    margin-top: 70px;
+    }
+
+    .navsearch {
+        height: 30px;
+        position: relative;
+        left: 90px;
+        top: 21px;
+        cursor: pointer;
+    }
+
+    .heading {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 20px;
+        margin-top: 70px;
+    }
+
+    .headingpara {
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .desimg {
+        height: 200px;
+        width: 250px;
+        position: relative;
+        left: 30px;
+        top: 100px;
+
+    }
 }
 
-.headingpara {
-    color: white;
-    font-size: 20px;
-    text-align: left;
-    margin-left: 20px;
-}
-.desimg {
-    height: 200px;
-    width: 250px;
-    position: relative;
-    left: 30px;
-    top: 100px;
+@media (min-width:601px) and (max-width:1275px) {
 
-}
-}
-@media ( min-width:601px) and ( max-width:1275px)
-{
-    
-    .searchbar
-     {
+    .searchbar {
         height: 25px;
         width: 200px;
         border-radius: 20px;
@@ -272,26 +252,29 @@ body {
         top: 18px;
         box-shadow: 0 0 2px 2px whitesmoke;
         font-size: 15px;
-}
-.navsearch {
-    height: 30px;
-    position: relative;
-    left: 155px;
-    top: 21px;
-    cursor: pointer;
-}
-.desimg {
-    height: 320px;
-    width: 550px;
-    position: relative;
-    left: 30px;
-    top: 10px;
-}
-.criccardimg {
-    height: 180px;
-    width: 250px;
-    box-shadow: 0 0 2px 2px gray;
-    cursor: pointer;
-    border-radius: 10px;
-}
+    }
+
+    .navsearch {
+        height: 30px;
+        position: relative;
+        left: 155px;
+        top: 21px;
+        cursor: pointer;
+    }
+
+    .desimg {
+        height: 320px;
+        width: 550px;
+        position: relative;
+        left: 30px;
+        top: 10px;
+    }
+
+    .criccardimg {
+        height: 180px;
+        width: 250px;
+        box-shadow: 0 0 2px 2px gray;
+        cursor: pointer;
+        border-radius: 10px;
+    }
 }
